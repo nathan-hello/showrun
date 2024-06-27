@@ -1,0 +1,9 @@
+To invert touchpad scrolling, go to
+/usr/share/X11/xorg.conf.d/40-libinput.conf
+
+Section "InputClass"
+        Identifier "libinput touchpad catchall"
+                # Find this ^
+	Option "NaturalScrolling" "true"
+                # Insert this ^
+EndSection

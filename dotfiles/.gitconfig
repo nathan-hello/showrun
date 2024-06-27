@@ -1,0 +1,13 @@
+[safe]
+	directory = /home/nate/ly
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
+[user]
+	name = nathan-hello
+	email = natey3k@gmail.com
